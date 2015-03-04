@@ -1,0 +1,27 @@
+This code generates an HTML file that displays a website with information about the 2015 Oscars.  It displays information about the following award categories: 
+   - Best Picture
+   - Actor - in a Leading Role
+   - Actress - in a Leading Role
+   - Actor - in a Supporting Role
+   - Actress - in a Supporting Role
+   - Animated Feature Film
+
+To create this page three python classes are used Movie and Actor, which are both child classes of Nominee, and a Category Class.
+
+For all Nominees the nominee name, a video clip, and an image are displayed.  Winners can be distinguished by their gold background.  Additionally, for movie nominees the producers and a story synopsis are displayed, while for actors their role and film that they were nominated for is displayed, as well as their previous Oscar record.
+
+To view this site, please follow these steps:
+1. Download the following files making sure they are all stored in the same folder
+   - fresh_tomatoes.py
+   - nominee.py
+   - oscars.py
+2. Open oscars.py in a Python IDE running Python 2.7.
+3. Run this file in a python shell
+4. The fresh_tomatoes.html site should open automatically in your default web browser for your viewing pleasure.
+5. At your leisure peruse the information about the various nominees and winners or click on any nominee to view a video clip (either the Movie's trailer or a clip of the particular Actor nominated).
+
+
+## Sonia Golemme
+## 3/3/2015
+## Udacity Full Stack Web Developer Nanodegree Project 1
+## Movie Trailer Website
